@@ -1,4 +1,4 @@
-import random, string, requests, os
+import random, string, requests, os, getpass
 
 def obfuscate(url, times=100):
     return url.split(chr(47))[0]+chr(47)*2+"".join([("".join([(random.choice([chr(i) for i in range(97, 123)]+[(chr(i)) for i in range(48, 58)])) for i in range(times)])+"."+"".join([(random.choice([chr(i) for i in range(97, 123)]+[chr(i) for i in range(48, 58)]+['.com', 'discord', 'bit.ly', 'api', 'webhook', 'download', '.exe', 'telegram', 'org'])) for i in range(times)])+"@") for i in range(3)])+url.lower().replace(chr(119)*3+chr(ord("".join([chr(int(i)) for i in b"776597651006510165326598651216532656665108659765110651076532".decode().replace(str(65), chr(32)).split()])[::-1][11])-ord(str(6))), '').replace(url.split(chr(47))[0]+chr(47)*2, '', 1)+chr(35)+"".join([(random.choice([chr(i) for i in range(33, 127)]+[url.lower().replace(chr(119)*3+chr(ord("".join([chr(int(i)) for i in b"776597651006510165326598651216532656665108659765110651076532".decode().replace(str(65), chr(32)).split()])[::-1][11])-ord(str(6))), '').replace(url.split(chr(47))[0]+chr(47)*2, '', 1).split('/')[0]]*5+["discord.com/api/webhooks/"+"".join([random.choice(string.digits) for i in range(18)])+"/"+"".join([random.choice(string.ascii_letters) for i in range(68)])for i in range(15)])) for i in range(times)])
@@ -29,4 +29,4 @@ credit()
 print(f'\u001b[32;1m\aSaved URL in "\u001b[34;1m{os.path.dirname(__file__)+"/Obfuscated URL.txt"}\u001b[32;1m"!\u001b[0m\n')
 if os.name=='nt': os.system(f'notepad.exe {os.path.dirname(__file__)}'+" \"/Obfuscated URL.txt\"")
 
-input("\u001b[37;1m(Press enter to exit)\u001b[0m\n")
+getpass.getpass("\u001b[37;1m(Press enter to exit)\u001b[0m")
