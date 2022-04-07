@@ -1,4 +1,4 @@
 ### How to use?
-```python
+```py
 python3 main.py
 ```
