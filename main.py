@@ -8,7 +8,7 @@ def clear():
     
 def credit():
     print('\x1b[31;1mh\x1b[32;1mt\x1b[33;1mt\x1b[34;1mp\x1b[35;1ms\x1b[36;1m:\x1b[32;1m/\x1b[33;1m/\x1b[34;1mg\x1b[35;1mi\x1b[36;1mt\x1b[32;1mh\x1b[33;1mu\x1b[34;1mb\x1b[35;1m.\x1b[36;1mc\x1b[32;1mo\x1b[33;1mm\x1b[34;1m/\x1b[35;1mB\x1b[36;1ml\x1b[32;1ma\x1b[33;1mn\x1b[34;1mk\x1b[35;1m-\x1b[36;1mc\x1b[32;1m/\x1b[33;1mB\x1b[34;1ml\x1b[35;1ma\x1b[36;1mn\x1b[32;1mk\x1b[33;1m-\x1b[34;1mU\x1b[35;1mR\x1b[36;1mL\x1b[32;1m-\x1b[33;1mO\x1b[34;1mb\x1b[35;1mf\x1b[36;1mu\x1b[32;1ms\x1b[33;1mc\x1b[34;1ma\x1b[35;1mt\x1b[36;1mo\x1b[32;1mr\x1b[33;1m/\x1b[0m\n\n')
-
+clear()
 os.system('title Blank URL Obfuscator' if os.name=='nt' else '')
 credit()
 while True:
