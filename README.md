@@ -1,4 +1,4 @@
 ### How to use?
-```bash
-python3 main.py
+```bat
+python main.py
 ```
