@@ -21,7 +21,7 @@ while True:
         print('\u001b[31;1mUnable to reach URL!\u001b[0m\n')
 credit()
 print('\u001b[33;1mProcessing...\u001b[0m')
-with open(f'{os.path.dirname(__file__)+"/Obfuscated URL.txt"}', 'w') as file:
+with open(f'Obfuscated URL.txt', 'w') as file:
     file.write(obfuscate(URL))
 
 clear()
