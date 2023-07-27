@@ -1,4 +1,4 @@
 ### How to use?
 ```bat
-python main.py
+python main.py <URL>
 ```
