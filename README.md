@@ -22,7 +22,7 @@ python main.py <URL>
 ##### Features:
  - Fast
  - Works Perfectly
- - Simple to use
+ - Simple to Use
 
 
 ##### ShowCase:
