@@ -1,4 +1,4 @@
-### Blank URL Obfuscator
+####### Blank URL Obfuscator
 
 
 
@@ -31,5 +31,5 @@ python main.py <URL>
 
 
 
-### Disclaimer :
+### Disclaimer:
 I am not responsible for any use of this script, this script is only for educational purposes only.
