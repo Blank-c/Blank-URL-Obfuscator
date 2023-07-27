@@ -1,9 +1,39 @@
+### Blank URL Obfuscator
+
+
+### Requirements
+ - Python
+ - A brain
+
+
+### Installation
+```bat 
+git clone https://github.com/DARKNOSY/Rush-PowerShell-Obfuscator/
+```
+
+```bat 
+cd Rush-PowerShell-Obfuscator
+```
+
+```bat
+cd Rush-PowerShell-Obfuscator
+```
+
 ### How to use?
 ```bat
 python main.py <URL>
 ```
 
 
-### ShowCase
+### Features
+ - Fast
+ - Works Perfectly
+ - Simple to use
 
-![bruh](https://github.com/DARKNOSY/Blank-URL-Obfuscator/blob/main/sc.png?raw=true)
+
+### ShowCase
+![showcase](https://github.com/DARKNOSY/Blank-URL-Obfuscator/blob/main/sc.png?raw=true)
+
+
+### [+] Disclaimer 
+I am not responsible for any use of this script, this script is only for educational purposes only.
