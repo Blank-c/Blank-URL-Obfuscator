@@ -4,6 +4,7 @@
 
 ##### Requirements:
  - Python
+ - Git
  - A brain
 
 
