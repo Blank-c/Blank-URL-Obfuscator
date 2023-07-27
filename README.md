@@ -1,35 +1,35 @@
-##### Blank URL Obfuscator
+### Blank URL Obfuscator
 
 
 
-### Requirements:
+##### Requirements:
  - Python
  - A brain
 
 
-### Installation:
+##### Installation:
 ```bat 
 git clone https://github.com/DARKNOSY/Blank-URL-Obfuscator/
 ```
 
 
-### How to use?:
+##### How to use?:
 ```bat
 python main.py <URL>
 ```
 
 
-### Features:
+##### Features:
  - Fast
  - Works Perfectly
  - Simple to use
 
 
-### ShowCase:
+##### ShowCase:
 ![showcase](https://github.com/DARKNOSY/Blank-URL-Obfuscator/blob/main/sc.png?raw=true)
 
 
 
 
-### Disclaimer:
+##### Disclaimer:
 I am not responsible for any use of this script, this script is only for educational purposes only.
