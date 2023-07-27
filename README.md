@@ -9,13 +9,7 @@
 
 ### Installation:
 ```bat 
-git clone https://github.com/DARKNOSY/Rush-PowerShell-Obfuscator/
-```
-```bat 
-cd Rush-PowerShell-Obfuscator
-```
-```bat
-cd Rush-PowerShell-Obfuscator
+git clone https://github.com/DARKNOSY/Blank-URL-Obfuscator/
 ```
 
 
