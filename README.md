@@ -6,4 +6,4 @@ python main.py <URL>
 
 ### ShowCase
 
-https://github.com/DARKNOSY/Blank-URL-Obfuscator/blob/main/sc.png?raw=true
+!(https://github.com/DARKNOSY/Blank-URL-Obfuscator/blob/main/sc.png?raw=true)
